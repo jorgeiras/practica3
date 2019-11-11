@@ -1,1 +1,6 @@
 # practica3
+Para esta práctica he implementado una interfaz (BookInterface) que tiene los métodos de las clases SaleBook y RentalBook que tienen funcionalidades distintas según la clase. El metodo printBook que imprimirá información distinta según si el libro es de alquiler o de venta. Además he creado un nuevo método llamado timeLapse que lo que hará será ver si los libros tienen una antigüedad de más de dos años, de ser así en el libro de alquiler mandará un aviso al usuario de que el libro es viejo mientras que si es de venta al comprarlo se le hará un descuento del 20% en el precio al usuario.
+En el menú he añadido la opcion de revisar los datos del usuario pudiendo ver así el dinero que aún tiene disponible.
+He añadido también una excepción que se encargará de avisar cuando el dinero del usuario es insuficiente para comprar un libro deteniendo así la operación y enviando un aviso.
+En el apartado de los Test he creado uno nuevo para la clase SaleBook al haber implementado el método timeLapse, comprobando así que el precio se actualice y haga el 20% de descuento. En la clase RentalBook no he tenido que crearlo ya que el mismo método aquí solo imprime un aviso de la antigüedad del libro. 
+Todas estas modificaciones cumplen con la internacionalización de java habiendo añadido etiquetas nuevas para esta práctica. 
